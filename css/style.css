@@ -75,3 +75,26 @@ nav>ul {
 .download-button {
     height: 8rem;
 }
+
+footer {
+    background-color: #23272a;
+    height: 35rem;
+}
+
+.links {
+    height: 20rem;
+}
+.languages-social-media {
+    flex-basis: 28%;
+}
+
+.product,
+.company,
+.resources,
+.policies {
+    flex-basis: 18%;
+}
+
+.sign-up {
+    height: 10rem;
+}
