@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
-.flex {
+.flex-row {
     display: flex;
 }
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
-    height: 25rem;
+    height: 20rem;
     background-color: #3161e0;
 }
 
@@ -19,9 +24,10 @@ header {
 }
 
 .navigation {
-    height: 10rem;
+    height: 5rem;
 }
-.main-logo {
+.main-logo,
+.login  {
     flex-basis: 20%;
 }
 
@@ -33,23 +39,20 @@ nav>ul {
     display: inline-block;
 }
 
-.login {
-    flex-basis: 20%;
-}
-
 .main-title {
     height: 10rem;
     background-color: white;
 }
 
-.p-beside-img {
-    height: 35rem;
-}
-
 .bgcolor-lightgray {
     background-color: #f6f6f6;
 }
-.paragraph {
+
+.p-beside-img {
+    height: 30rem;
+}
+
+.beside-paragraph {
     width: 70%;
 }
 
@@ -57,3 +60,18 @@ nav>ul {
     width: 30%;
 }
 
+.text-img-download-btn {
+    height: 50rem;
+}
+
+.paragraph {
+    height: 10rem;
+}
+
+.img {
+    height: 25rem;
+}
+
+.download-button {
+    height: 8rem;
+}
