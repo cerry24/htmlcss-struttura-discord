@@ -13,10 +13,13 @@ header {
     background-color: #3161e0;
 }
 
-.navigation {
-    height: 10rem;
+.reducted-width {
     width: 80%;
     margin: 0 auto;
+}
+
+.navigation {
+    height: 10rem;
 }
 .main-logo {
     flex-basis: 20%;
@@ -35,8 +38,22 @@ nav>ul {
 }
 
 .main-title {
-    width: 80%;
     height: 10rem;
-    margin: 0 auto;
     background-color: white;
 }
+
+.p-beside-img {
+    height: 35rem;
+}
+
+.bgcolor-lightgray {
+    background-color: #f6f6f6;
+}
+.paragraph {
+    width: 70%;
+}
+
+.beside-img {
+    width: 30%;
+}
+
