@@ -9,11 +9,12 @@
 }
 
 header {
-    height: 40rem;
+    height: 25rem;
     background-color: #3161e0;
 }
 
 .navigation {
+    height: 10rem;
     width: 80%;
     margin: 0 auto;
 }
@@ -23,7 +24,6 @@ header {
 
 .main-menu {
     flex-basis: 60%;
-
 }
 
 nav>ul {
@@ -32,4 +32,11 @@ nav>ul {
 
 .login {
     flex-basis: 20%;
+}
+
+.main-title {
+    width: 80%;
+    height: 10rem;
+    margin: 0 auto;
+    background-color: white;
 }
