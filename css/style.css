@@ -13,15 +13,23 @@ header {
     background-color: #3161e0;
 }
 
+.navigation {
+    width: 80%;
+    margin: 0 auto;
+}
 .main-logo {
-    flex-basis: 60%;
+    flex-basis: 20%;
 }
 
 .main-menu {
-    flex-basis: 20%;
+    flex-basis: 60%;
 
 }
 
 nav>ul {
     display: inline-block;
+}
+
+.login {
+    flex-basis: 20%;
 }
